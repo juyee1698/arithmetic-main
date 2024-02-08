@@ -12,4 +12,4 @@ jobs:
         run: |
           docker login --username juyee1698 --password ${{secrets.ACCESS_TOKEN}} ghcr.io
           docker build -t ghcr.io/juyee1698/arithmetic-service:latest --file Dockerfile .
-          docker push ghcr.io/juyee1698/arithmetic-service: latest
+          docker push ghcr.io/juyee1698/arithmetic-service:latest
